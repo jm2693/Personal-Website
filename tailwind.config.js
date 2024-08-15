@@ -14,7 +14,10 @@ module.exports = {
         secondaryBrown: "#35220A",
         blue: "#527ECE",
         red: "#FA5356",
-      }
+      },
+      fontFamily: {
+        museomoderno: ["MuseoModerno", "sans-serif"],
+      },
     },
     screens: {
       xs: "480px",
