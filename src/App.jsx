@@ -12,7 +12,7 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-primaryGreen ${styles.flexStart}`}>
+      <div className={`bg-primaryGreen ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Header />
         </div>
