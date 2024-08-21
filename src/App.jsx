@@ -18,7 +18,9 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-primaryGreen ${styles.paddingX} ${styles.flexStart}`}>
+      <div className='bg-secondaryGreen py-10'></div>
+
+      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Experience />
           <Project />

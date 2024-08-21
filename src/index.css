@@ -17,6 +17,19 @@
   scroll-behavior: smooth;
 }
 
+/* this is for underlining the nav bar */
+@layer utilities {
+	ul li {
+		@apply relative tracking-[1px];
+	}
+	ul li::after {
+		@apply content-[''] bg-white h-[5px] w-[0%] left-0 -bottom-[6px] rounded-xl absolute duration-300;
+	}
+	ul li:hover::after {
+		@apply w-[100%];
+	}
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
