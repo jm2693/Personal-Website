@@ -1,45 +1,49 @@
 import React from "react";
-import styles from "../style";
+// import styles from "../style";
 import { jason, topHalfTree, bottomHalfTree } from "../assets";
 
 
 const Header = () => {
-    return ( 
+    return (
         <section id="home" className={`flex
-        md:flex-row flex-col sm:py-4 py-2`}>
+        flex-col-reverse md:flex-row py-2 sm:py-4`}>
 
-            <div className={`${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+            {/* ${styles.flexStart} flex-col <- in order to apply flex to header*/}
 
-                <div className="flex-1 w-[552px] h-[205px] bg-transparent ml-[42px] mb-4 ">
-                    <img src={topHalfTree} alt="TopHalfTree" className="w-full h-full object-contain"/>
+            <div className={`relative xl:px-0 sm:px-16 px-6`}>
+
+                <div className="flex-1 w-[276px] h-[102px] sm:w-[552px] sm:h-[205px] bg-transparent ml-[31px] sm:ml-[42px] mb-4 ">
+                    <img src={topHalfTree} alt="TopHalfTree" className="w-full h-full object-contain" />
                 </div>
 
-                <div className="text-center ml-[32px]">
+                <div className="text-center sm:ml-[32px]">
                     <h1 className="flex flex-row 
                     font-museomoderno items-center 
-                    py-[6px] text-white px-14
-                    mb-2 text-5xl font-extrabold"> 
+                    sm:py-[6px] text-white px-14
+                    sm:mb-2 text-2xl sm:text-5xl font-extrabold">
                         Jason Merchan
                     </h1>
 
                     <h2 className="flex flex-row 
                     font-museomoderno items-center 
-                    py-[6px] px-16 text-white 
-                    mb-4 text-4xl font-extrabold underline">
+                    sm:py-[6px] px-12 sm:px-16 text-white 
+                    mb-4 text-xl sm:text-4xl font-extrabold underline">
                         Software Engineer
                     </h2>
                 </div>
 
-                <div className="flex-1 w-[404px] h-[442px] bg-transparent mb-4">
-                    <img src={bottomHalfTree} alt="BottomHalfTree" className="w-full h-full object-contain"/>
+                <div className="h-[42px]"></div>
+
+                <div className="absolute bottom-[-200px] md:bottom-[-325px] flex-1 w-[202px] h-[221px] sm:w-[404px] sm:h-[442px] bg-transparent ml-3 sm:ml-0 mb-4">
+                    <img src={bottomHalfTree} alt="BottomHalfTree" className="w-full h-full object-contain" />
                 </div>
 
             </div>
 
-            <div className="flex flex-1 justify-center items-center md:mb-60 mt-10 md:mt-0">
+            <div className="flex flex-1 justify-center items-center md:mb-12 sm:mt-10 md:mt-0">
 
                 <div className="rounded-full border-8 border-white overflow-hidden">
-                    <div className="rounded-full border-16 border-primaryGreen overflow-hidden w-[28rem] h-[28rem]">
+                    <div className="rounded-full border-16 border-primaryGreen overflow-hidden w-[12rem] h-[12rem] sm:w-[28rem] sm:h-[28rem]">
                         <img src={jason} alt="Jason Merchan" className="w-full h-full object-cover" />
                     </div>
                 </div>
@@ -47,7 +51,7 @@ const Header = () => {
             </div>
 
         </section>
-     );
+    );
 }
 
 export default Header;

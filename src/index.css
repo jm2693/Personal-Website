@@ -18,16 +18,18 @@
 }
 
 /* this is for underlining the nav bar */
-@layer utilities {
-	ul li {
-		@apply relative tracking-[1px];
-	}
-	ul li::after {
-		@apply content-[''] bg-white h-[5px] w-[0%] left-0 -bottom-[6px] rounded-xl absolute duration-300;
-	}
-	ul li:hover::after {
-		@apply w-[100%];
-	}
+@layer components {
+  .hover-underline-menu li {
+    @apply relative tracking-wider;
+  }
+  
+  .hover-underline-menu li::after {
+    @apply content-[''] bg-white h-[5px] w-0 left-0 -bottom-[6px] rounded-xl absolute transition-all duration-300 ease-in-out;
+  }
+  
+  .hover-underline-menu li:hover::after {
+    @apply w-full;
+  }
 }
 
 .text-gradient {

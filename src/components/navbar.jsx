@@ -6,18 +6,18 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className="w-full flex py-6 justify-between item-center navbar">
-            <ul className="list-none sm:flex hidden justify-start items-center flex-1">
+        <nav className="w-full bg-primaryGreen flex py-6 justify-between item-center navbar">
+            <ul className="list-none sm:flex flex-1 hidden justify-start items-center hover-underline-menu">
                 {
                     navLinks.map((nav, index) => (
                         <li
                             key={nav.id}
                             className={`font-museomoderno
-                            font-normal
+                            font-normal 
                             cursor-pointer
                             text-[28px] ${index === 0 ? 'ml-16' : 'ml-20'}
                             text-white
-                            font-semibold` }>
+                            font-semibold`}>
                             <a href={`#${nav.id}`}>
                                 {nav.title}
                             </a>
