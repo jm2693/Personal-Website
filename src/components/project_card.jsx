@@ -1,8 +1,10 @@
 import React from 'react';
 
-const ExperienceCard = ({ title, subtitle, bulletPoints }) => {
+const ProjectCard = ({ title, subtitle, bulletPoints }) => {
+console.log('Subtitle:', subtitle, 'Length:', subtitle.length); // Add this line
+
   return (
-    <div className="bg-lightYellow rounded-2xl p-6 shadow-md mb-6">
+    <div className="bg-blue rounded-2xl p-6 shadow-md mb-6">
       <div className={`text-xl font-museomoderno font-bold px-1 rounded-md inline-block ${subtitle === '' ? 'mb-4' : 'mb-1'}`}>
         {title}
       </div>
@@ -22,4 +24,4 @@ const ExperienceCard = ({ title, subtitle, bulletPoints }) => {
   );
 };
 
-export default ExperienceCard;
+export default ProjectCard;
