@@ -27,7 +27,7 @@ const Header = () => {
                     <h2 className="flex flex-row 
                     font-museomoderno items-center 
                     sm:py-[6px] px-12 sm:px-16 text-white 
-                    mb-4 text-xl sm:text-4xl font-extrabold underline">
+                    mb-4 text-xl sm:text-4xl font-extrabold underline decoration-4">
                         Software Engineer
                     </h2>
                 </div>
