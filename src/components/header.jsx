@@ -5,14 +5,13 @@ import { jason, topHalfTree, bottomHalfTree } from "../assets";
 
 const Header = () => {
     return (
-        <section id="home" className={`flex
-        flex-col-reverse md:flex-row py-2 sm:py-4`}>
+        <section id="home" className={`flex flex-col-reverse md:flex-row py-2 sm:py-4`}>
 
             {/* ${styles.flexStart} flex-col <- in order to apply flex to header*/}
 
             <div className={`relative xl:px-0 sm:px-16 px-6`}>
 
-                <div className="flex-1 w-[276px] h-[102px] sm:w-[552px] sm:h-[205px] bg-transparent ml-[31px] sm:ml-[42px] mb-4 ">
+                <div className="bg-transparent flex flex-1 w-[276px] h-[102px] sm:w-[552px] sm:h-[205px] ml-[31px] sm:ml-[42px] mb-4 ">
                     <img src={topHalfTree} alt="TopHalfTree" className="w-full h-full object-contain" />
                 </div>
 
@@ -34,7 +33,8 @@ const Header = () => {
 
                 <div className="h-[42px]"></div>
 
-                <div className="absolute bottom-[-200px] md:bottom-[-325px] flex-1 w-[202px] h-[221px] sm:w-[404px] sm:h-[442px] bg-transparent ml-3 sm:ml-0 mb-4">
+                {/* we use absolute below to make the bottom half tree overlap the header and the body */}
+                <div className="absolute bg-transparent flex flex-1 bottom-[-200px] sm:bottom-[-425px] lg:bottom-[-325px] w-[202px] h-[221px] sm:w-[404px] sm:h-[442px] ml-3 sm:ml-0 mb-4">
                     <img src={bottomHalfTree} alt="BottomHalfTree" className="w-full h-full object-contain" />
                 </div>
 
@@ -43,7 +43,7 @@ const Header = () => {
             <div className="flex flex-1 justify-center items-center md:mb-12 sm:mt-10 md:mt-0">
 
                 <div className="rounded-full border-8 border-white overflow-hidden">
-                    <div className="rounded-full border-16 border-primaryGreen overflow-hidden w-[12rem] h-[12rem] sm:w-[28rem] sm:h-[28rem]">
+                    <div className="rounded-full border-16 border-primaryGreen overflow-hidden w-[12rem] h-[12rem] sm:w-[18rem] sm:h-[18rem] lg:w-[28rem] lg:h-[28rem]">
                         <img src={jason} alt="Jason Merchan" className="w-full h-full object-cover" />
                     </div>
                 </div>

@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <nav className="w-full bg-primaryGreen flex py-6 justify-between">
-            <ul className="list-none sm:flex flex-1 hidden justify-start hover-underline-menu">
+            <ul className="list-none md:flex flex-1 hidden justify-start hover-underline-menu">
                 {
                     navLinks.map((nav, index) => (
                         <li
@@ -25,7 +25,7 @@ const Navbar = () => {
                     ))
                 }
             </ul>
-            <div className="sm:hidden flex flex-1 justify-start items-center">
+            <div className="md:hidden flex flex-1 justify-start items-center">
                 <img src={toggle ? close : menu}
                     alt="menu" className="w-[28px] h-[28px] object-contain"
                     onClick={() => setToggle((prev) => !prev)} />

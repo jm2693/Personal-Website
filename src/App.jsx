@@ -25,7 +25,7 @@ function App() {
           <div className="md:grid md:grid-cols-12 gap-4">
             <div className="md:col-span-5 relative"></div>
             <div className="md:col-span-7">
-              <div className="h-[180px] md:h-[305px]"></div>
+              <div className="h-[180px] sm:h-[395px] lg:h-[290px]"></div>
               <Experience />
               <Project />
               <Resume />
