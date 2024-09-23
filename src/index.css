@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@700&display=swap");
-
+/* @import './assets/leaf-background.svg'; */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 
@@ -30,6 +30,18 @@
   .hover-underline-menu li:hover::after {
     @apply w-full;
   }
+}
+
+@keyframes moving-background {
+  from {background-position: 0 0;}
+  to {background-position: 100% 100%;}
+}
+
+.bg-moving-leaf {
+  background-image: url('./assets/leaf-background.svg');
+  background-size: 75%;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
 }
 
 .text-gradient {

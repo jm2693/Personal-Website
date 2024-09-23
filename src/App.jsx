@@ -20,7 +20,7 @@ function App() {
 
       <div className='bg-secondaryGreen py-6'></div>
 
-      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-white bg-moving-leaf animate-moving-bg ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <div className="md:grid md:grid-cols-12 gap-4">
             <div className="md:col-span-5 relative"></div>
