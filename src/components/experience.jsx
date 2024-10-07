@@ -7,14 +7,14 @@ const Experience = () => {
             title: 'Software Engineer Student Worker',
             subtitle: 'Enterprise Application Services at Rutgers University',
             bulletPoints: [
-                'Collaborating with cross-functional teams, serving 70,000+ student, faculty, and staff across multiple campuses, by optimizing Dart asynchronous operations and local API integrations for library database access',
-                'Boosted app security and user retention by improving a cross-platform biometric authentication system for Android and iOS, resolving critical authentication errors, and decreasing account-related support tickets by 40%',
-                'Designed and implemented app-wide route navigation system to significantly reduce page load times, webview performance, and overall app performance by 14%',
+                'Collaborating with cross-functional teams, serving 120,000+ student, faculty, and staff across multiple campuses, by optimizing Dart asynchronous operations and local API integrations',
+                'Redesigning the myRutgers Mobile App login to function more robustly and enhance user experience',
+                'Designing and implementing app-wide route navigation system to allow for a more efficient widget tree',
             ],
         },
         {
-            title: 'Software Engineer Student Worker',
-            subtitle: 'Enterprise Application Services at Rutgers University',
+            title: 'Web Developer',
+            subtitle: 'Urological Associate of Central Jersey',
             bulletPoints: [
                 'Collaborating with cross-functional teams, serving 70,000+ student, faculty, and staff across multiple campuses, by optimizing Dart asynchronous operations and local API integrations for library database access',
                 'Boosted app security and user retention by improving a cross-platform biometric authentication system for Android and iOS, resolving critical authentication errors, and decreasing account-related support tickets by 40%',

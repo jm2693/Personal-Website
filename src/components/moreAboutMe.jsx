@@ -15,9 +15,10 @@ const MoreAboutMe = () => {
                             </li>
                             <li>
                                 Some of my current side projects are making a mobile app for a Beach Reservation Business,
-                                Working on a Rutgers Marketplace webapp
-                                And making this site!
-                                I am doing some testing with reinforcement learing and some testing with llamas 3.0
+                                working on a Rutgers Marketplace webapp, and making this site!
+                            </li>
+                            <li>
+                                I am interested in learning some ML, specifically in reinforcement learning
                             </li>
                         </ul>
                     </div>
