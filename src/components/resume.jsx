@@ -9,7 +9,13 @@ const Resume = () => {
         link.download = 'JasonMerchan_Resume.pdf';
 
         // make the link a part of the DOM but not visible
-        document.body.append(link);
+        document.body.appendChild(link);
+
+        // clicks the link within the DOM to trigger download
+        link.click()
+
+        // removes the link very quickly after it was appended
+        document.body.removeChild(link)
     }
     return (
         <div className="space-y-8 mb-24">
@@ -25,6 +31,7 @@ const Resume = () => {
                     />
                 </div>
                 <button 
+                    onClick={downloadOnClick}
                     className="
                     bg-primaryGreen text-xl rounded-xl 
                     font-museomoderno w-[250px] h-[75px] 
