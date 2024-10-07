@@ -33,7 +33,7 @@ const Experience = () => {
     ]
 
     return (
-        <div id="experience" className="space-y-8 mb-24">
+        <div id="experience" className="space-y-8 pt-24">
             <h2 className="text-5xl font-museomoderno font-bold mb-6">Experience</h2>
             {experiences.map((exp, index) => (
                 <ExperienceCard key={index} title={exp.title} subtitle={exp.subtitle} bulletPoints={exp.bulletPoints} />
