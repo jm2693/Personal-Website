@@ -20,7 +20,7 @@ module.exports = {
         museomoderno: ["MuseoModerno", "sans-serif"],
       },
       animation: {
-        'moving-bg': 'moving-background 60s linear infinite',
+        'moving-bg': 'moving-background 35s linear infinite',
       },
     },
     screens: {

@@ -33,15 +33,15 @@
 }
 
 @keyframes moving-background {
-  from {background-position: 0 0;}
-  to {background-position: 100% 100%;}
+  from {background-position: 0px 0px;}
+  to {background-position: 2660.5px 2814.5px;}
 }
 
 .bg-moving-leaf {
+  background-repeat: repeat;
   background-image: url('./assets/leaf-background.svg');
-  background-size: 75%;
-  background-repeat: repeat-x;
-  background-repeat: repeat-y;
+  background-size: 2660.5px 2814.5px;
+  animation-fill-mode: forwards;
 }
 
 .text-gradient {
