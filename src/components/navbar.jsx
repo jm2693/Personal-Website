@@ -6,7 +6,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className="w-full bg-primaryGreen flex py-6 justify-between">
+        <nav id="navbar" className="w-full bg-primaryGreen flex py-6 justify-between">
             <ul className="list-none md:flex flex-1 hidden justify-start hover-underline-menu">
                 {
                     navLinks.map((nav, index) => (
