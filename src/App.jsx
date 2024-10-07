@@ -5,8 +5,8 @@ import { Experience, Footer, Header, Project, Resume, MoreAboutMe, Navbar } from
 
 function App() {
   return (
-    <div className='bg-primaryGreen w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+    <div className='bg-primaryGreen w-full'>
+      <div className={`sticky top-0 z-50 w-full ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
