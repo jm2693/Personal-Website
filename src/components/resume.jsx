@@ -1,11 +1,58 @@
 import React from "react";
 
 const Resume = () => {
-    return ( 
-        <div>
-            Resume
-        </div>
-     );
-}
+    const downloadOnClick = () => {
+        // temporary anchor
+        const link = document.createElement('a');
+        // link points to
+        link.href = '/JasonMerchan_Resume.pdf';
+        link.download = 'JasonMerchan_Resume.pdf';
 
+        // make the link a part of the DOM but not visible
+        document.body.append(link);
+    }
+    return (
+        <div className="space-y-8 mb-24">
+            <h2 className=" text-4xl font-museomoderno font-bold mb-6">Resume</h2>
+                <div className="w-[600px] h-[600px]">
+                    <iframe
+                        className="rounded-md"
+                        src="/JasonMerchan_Resume.pdf"
+                        title="Jason Merchan Resume"
+                        width="100%"
+                        height="100%"
+                        style={{ border: "none" }}
+                    />
+                </div>
+                <button 
+                    className="
+                    bg-primaryGreen text-xl rounded-xl 
+                    font-museomoderno w-[250px] h-[75px] 
+                    items-center justify-center text-white font-medium">
+                    Download Resume
+                </button>
+        </div>
+    );
+}
 export default Resume;
+
+// import React from "react";
+
+// const Resume = () => {
+//   return (
+//     <div className="space-y-8 mb-24">
+//       <h2 className="text-4xl font-museomoderno font-bold mb-6">Resume</h2>
+//       <div className="w-full h-[600px]"> {/* Adjust height as needed */}
+//         <iframe
+//           src="/JasonMerchan_Resume.pdf"
+//           title="Jason Merchan Resume"
+//           width="100%"
+//           height="100%"
+//           style={{ border: "none" }}
+//         />
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Resume;

@@ -31,12 +31,12 @@ const Project = () => {
         },
     ]
     return (
-        <div className="space-y-8">
-        <h2 className="text-4xl font-museomoderno font-bold mb-6">Projects</h2>
-        {projects.map((proj, index) => (
-            <ProjectCard key={index} title={proj.title} subtitle={proj.subtitle} bulletPoints={proj.bulletPoints} />
-        ))}
-    </div>
+        <div className="space-y-8 mb-24">
+            <h2 className="text-4xl font-museomoderno font-bold mb-6">Projects</h2>
+            {projects.map((proj, index) => (
+                <ProjectCard key={index} title={proj.title} subtitle={proj.subtitle} bulletPoints={proj.bulletPoints} />
+            ))}
+        </div>
     );
 }
 
