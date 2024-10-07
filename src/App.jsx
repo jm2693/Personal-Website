@@ -26,10 +26,10 @@ function App() {
             <div className="md:col-span-5 relative"></div>
             <div className="md:col-span-7">
               <div className="h-[180px] sm:h-[395px] lg:h-[290px]"></div>
+              <MoreAboutMe />
               <Experience />
               <Project />
               <Resume />
-              <MoreAboutMe />
             </div>
           </div>
         </div>
