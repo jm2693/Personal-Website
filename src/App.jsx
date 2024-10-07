@@ -38,7 +38,6 @@ function App() {
       <div>
         <Footer className="bg-secondaryGreen" />
       </div>
-
     </div>
   );
 }
