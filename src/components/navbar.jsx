@@ -40,13 +40,13 @@ const Navbar = () => {
                             navLinks.map((nav, index) => (
                                 <li
                                     key={nav.id}
-                                    className={`font-museomoderno
-                                    font-normal
-                                    cursor-pointer
-                                    text-[14px] 
-                                    mb-2
-                                    text-primaryBrown
-                                    font-semibold` }>
+                                    className={`
+                                        font-museomoderno
+                                        font-normal
+                                        cursor-pointer
+                                        text-[14px] mb-2
+                                        text-primaryBrown
+                                        font-semibold` }>
                                     <a href={`#${nav.id}`}>
                                         {nav.title}
                                     </a>
