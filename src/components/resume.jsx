@@ -19,7 +19,7 @@ const Resume = () => {
     }
     return (
         <div className="space-y-8 mb-24">
-            <h2 className=" text-4xl font-museomoderno font-bold mb-6">Resume</h2>
+            <h2 className="text-4xl font-museomoderno font-bold mb-6">Resume</h2>
                 <div className="w-[600px] h-[600px]">
                     <iframe
                         className="rounded-md"
