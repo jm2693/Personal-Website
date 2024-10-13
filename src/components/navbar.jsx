@@ -25,7 +25,7 @@ const Navbar = () => {
                     ))
                 }
             </ul>
-            <div className="md:hidden flex flex-1 justify-start items-center">
+            <div className="md:hidden flex flex-1 justify-start items-center ml-4">
                 <img src={toggle ? close : menu}
                     alt="menu" className="w-[28px] h-[28px] object-contain"
                     onClick={() => setToggle((prev) => !prev)} />
@@ -37,7 +37,7 @@ const Navbar = () => {
                     <ul className="list-none flex flex-col
                     justify-start items-start flex-1">
                         {
-                            navLinks.map((nav, index) => (
+                            navLinks.map((nav) => (
                                 <li
                                     key={nav.id}
                                     className={`
