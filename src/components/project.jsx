@@ -22,10 +22,10 @@ const Project = () => {
             ]
         },
         {
-            title: 'Infinity War Graph Simulator',
+            title: 'Network Graph Simulator',
             subtitle: '',
             bulletPoints: [
-                'Created a stochastic simulation of Thanos’ snap using graph theory and randomization, processing networks with up to 1 million nodes in under 30 seconds, to analyze the impact on global social networks and connectivity',
+                'Created a stochastic simulation of global networks using graph theory and randomization, processing networks with up to 1 million nodes in under 30 seconds, to analyze the impact on global social networks and connectivity',
                 'Leveraged data structures like adjacency matrices, HashMaps, and priority queues to efficiently represent and manipulate complex graph relationships, reducing memory usage by 4 times and query time by 40%',
             ]
         },

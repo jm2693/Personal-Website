@@ -15,7 +15,7 @@ console.log('Subtitle:', subtitle, 'Length:', subtitle.length); // Add this line
       )}
       <ul className="space-y-2 ml-6">
         {bulletPoints.map((point, index) => (
-          <li key={index} className="bg-primaryBrown backdrop-blur-lg bg-opacity-10 rounded-md p-2 shadow-sm">
+          <li key={index} className="bg-primaryBrown font-semibold backdrop-blur-lg bg-opacity-10 rounded-md p-2 shadow-sm">
             {point}
           </li>
         ))}

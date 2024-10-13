@@ -4,32 +4,24 @@ import ExperienceCard from "./experience_card";
 const Experience = () => {
     const experiences = [
         {
-            title: 'Software Engineer Student Worker',
+            title: 'Software Engineer',
             subtitle: 'Enterprise Application Services at Rutgers University',
             bulletPoints: [
-                'Collaborating with cross-functional teams, serving 120,000+ student, faculty, and staff across multiple campuses, by optimizing Dart asynchronous operations and local API integrations',
-                'Redesigning the myRutgers Mobile App login to function more robustly and enhance user experience',
-                'Designing and implementing app-wide route navigation system to allow for a more efficient widget tree',
+                'Main works revolves around the mobile development of the official myRutgers Mobile App using Flutter and Firebase',
+                'Collaborating with cross-functional teams, developing for 120,000+ users across multiple campuses',
+                'Implemented the app routing navigation systems to based on URI paths',
+                'Redesigned the login system to natively support Univerisity CAS Authentication'
             ],
         },
         {
             title: 'Web Developer',
             subtitle: 'Urological Associate of Central Jersey',
             bulletPoints: [
-                'Collaborating with cross-functional teams, serving 70,000+ student, faculty, and staff across multiple campuses, by optimizing Dart asynchronous operations and local API integrations for library database access',
-                'Boosted app security and user retention by improving a cross-platform biometric authentication system for Android and iOS, resolving critical authentication errors, and decreasing account-related support tickets by 40%',
-                'Designed and implemented app-wide route navigation system to significantly reduce page load times, webview performance, and overall app performance by 14%',
+                'Developed the official Urological Associates of Central Jersey website using React.js and AWS',
+                'Deployed and improved site visibility be implementing SEO best practices',
+                'Worked with client to properly translate clinical documents onto site',
             ],
         },
-        {
-            title: 'Software Engineer Student Worker',
-            subtitle: 'Enterprise Application Services at Rutgers University',
-            bulletPoints: [
-                'Collaborating with cross-functional teams, serving 70,000+ student, faculty, and staff across multiple campuses, by optimizing Dart asynchronous operations and local API integrations for library database access',
-                'Boosted app security and user retention by improving a cross-platform biometric authentication system for Android and iOS, resolving critical authentication errors, and decreasing account-related support tickets by 40%',
-                'Designed and implemented app-wide route navigation system to significantly reduce page load times, webview performance, and overall app performance by 14%',
-            ],
-        }
     ]
 
     return (
