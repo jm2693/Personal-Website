@@ -11,7 +11,7 @@ const Header = () => {
 
             <div className={`relative xl:px-0 sm:px-16 px-6`}>
 
-                <div className="bg-transparent flex flex-1 w-[276px] h-[102px] sm:w-[552px] sm:h-[205px] ml-[31px] sm:ml-[42px] mb-4 ">
+                <div className="bg-transparent flex flex-1 w-[276px] h-[102px] sm:w-[552px] sm:h-[205px] ml-4 md:ml-[31px] mb-4 ">
                     <img src={topHalfTree} alt="TopHalfTree" className="w-full h-full object-contain" />
                 </div>
 
@@ -34,7 +34,7 @@ const Header = () => {
                 <div className="h-[42px]"></div>
 
                 {/* we use absolute below to make the bottom half tree overlap the header and the body */}
-                <div className="absolute bg-transparent flex flex-1 bottom-[-200px] sm:bottom-[-425px] lg:bottom-[-325px] w-[202px] h-[221px] sm:w-[404px] sm:h-[442px] ml-3 sm:ml-0 mb-4">
+                <div className="absolute bg-transparent flex flex-1 bottom-[-200px] sm:bottom-[-425px] lg:bottom-[-325px] w-[202px] h-[221px] sm:w-[404px] sm:h-[442px] md:ml-3 mb-4">
                     <img src={bottomHalfTree} alt="BottomHalfTree" className="w-full h-full object-contain" />
                 </div>
 

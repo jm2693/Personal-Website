@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, menu } from "../assets";
+import { close, menu, github_logo, linkedin_logo, email_icon } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -7,6 +7,7 @@ const Navbar = () => {
 
     return (
         <nav id="navbar" className={`w-full bg-primaryGreen flex py-6 justify-between`}>
+            {/* Desktop View  */}
             <ul className="list-none md:flex flex-1 hidden justify-start hover-underline-menu">
                 {
                     navLinks.map((nav, index) => (
@@ -22,9 +23,10 @@ const Navbar = () => {
                                 {nav.title}
                             </a>
                         </li>
-                    ))
+                    ))      
                 }
             </ul>
+            {/* Mobile View */}
             <div className="md:hidden flex flex-1 justify-start items-center ml-4">
                 <img src={toggle ? close : menu}
                     alt="menu" className="w-[28px] h-[28px] object-contain"
@@ -56,6 +58,32 @@ const Navbar = () => {
                     </ul>
 
                 </div>
+            </div>
+
+            {/* Right Sided Logos */}
+            <div className="flex justify-end items-center gap-4 md:mr-16 mr-4">
+                <a 
+                href="https://github.com/jm2693"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:opacity-80 transition-opacity"
+                >
+                    <img src={github_logo} alt="GitHub" className="w-12 h-12 md:w-16 md:h-16 object-contain"/>
+
+                </a>
+
+                <a 
+                href="https://github.com/jm2693"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:opacity-80 transition-opacity"
+                >
+                    <img src={linkedin_logo} alt="LinkedIn" className="w-12 h-12 md:w-16 md:h-16 object-contain"/>
+                </a>
+
+                <a href="mailto:jmerchan1210@gmail.com?subject=SiteContact">
+                    <img src={email_icon} alt="Email" className="w-12 h-12 md:w-16 md:h-16 object-contain"/>
+                </a>
             </div>
         </nav>
     );
