@@ -8,17 +8,14 @@ const MoreAboutMe = () => {
                     <div className="text-lg font-semibold bg-primaryBrown bg-opacity-10 backdrop-blur-lg rounded-md p-2 shadow-sm">
                         <ul>
                             <li>
-                                I am a junior at Rutgers University-New Brunswick, studying Computer Science!
+                                My name is Jason Merchan. I am a student at Rutgers University pursuing a Bachelor's of Science in Computer Science.
                             </li>
                             <li>
-                                I am a big fan of traveling, most recently I went to Ecuador
+                                Some of my current side projects are making a mobile app for a Beach Reservation Business and
+                                working on a Rutgers Marketplace web-app.
                             </li>
                             <li>
-                                Some of my current side projects are making a mobile app for a Beach Reservation Business,
-                                working on a Rutgers Marketplace web-app, and making this site!
-                            </li>
-                            <li>
-                                I am interested in learning some ML, specifically in reinforcement learning
+                                I am currently doing research in Deep Learning, with a focus on Reinforcement Learning.
                             </li>
                         </ul>
                     </div>
