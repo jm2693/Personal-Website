@@ -15,7 +15,7 @@ const MoreAboutMe = () => {
                                 working on a Rutgers Marketplace web-app.
                             </li>
                             <li>
-                                I am currently doing research in Deep Learning, with a focus on Reinforcement Learning.
+                                I am doing research in Deep Learning, with a focus on Reinforcement Learning.
                             </li>
                         </ul>
                     </div>
