@@ -81,7 +81,9 @@ const Navbar = () => {
                     <img src={linkedin_logo} alt="LinkedIn" className="w-12 h-12 md:w-16 md:h-16 object-contain"/>
                 </a>
 
-                <a href="mailto:jmerchan1210@gmail.com?subject=SiteContact">
+                <a 
+                href="mailto:jmerchan1210@gmail.com?subject=SiteContact" 
+                className="hover:opacity-80 transition-opacity">
                     <img src={email_icon} alt="Email" className="w-12 h-12 md:w-16 md:h-16 object-contain"/>
                 </a>
             </div>
