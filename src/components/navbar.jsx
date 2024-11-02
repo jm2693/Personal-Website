@@ -73,7 +73,7 @@ const Navbar = () => {
                 </a>
 
                 <a 
-                href="https://github.com/jm2693"
+                href="https://linkedin.com/jason-merchan"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:opacity-80 transition-opacity"
