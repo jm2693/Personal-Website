@@ -8,7 +8,7 @@ const Experience = () => {
             subtitle: 'Enterprise Application Services at Rutgers University',
             bulletPoints: [
                 'Main works revolves around the mobile development of the official myRutgers Mobile App using Flutter and Firebase',
-                'Collaborating with cross-functional teams, developing for 120,000+ users across multiple campuses',
+                'Collaborating with cross-functional teams, developing for 70,000+ users across multiple campuses',
                 'Implemented the app routing navigation systems to based on URI paths',
                 'Redesigned the login system to natively support Univerisity CAS Authentication'
             ],
@@ -17,7 +17,7 @@ const Experience = () => {
             title: 'Web Developer',
             subtitle: 'Urological Associate of Central Jersey',
             bulletPoints: [
-                'Developed the official Urological Associates of Central Jersey website using React.js and AWS',
+                'Developed the official Urological Associates of Central Jersey website using React.js',
                 'Deployed and improved site visibility be implementing SEO best practices',
                 'Worked with client to properly translate clinical documents onto site',
             ],
