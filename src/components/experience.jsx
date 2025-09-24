@@ -4,6 +4,15 @@ import ExperienceCard from "./experience_card";
 const Experience = () => {
     const experiences = [
         {
+            title: 'Software Engineering Intern',
+            subtitle: 'GitHub',
+            bulletPoints: [
+                'Developed pre-migration CLI tool in Go, getting customers to start using GitHub and GitHub products faster',
+                'Built Support Vector Machine model by identifying key relationships in Azure data, achieving 93% accuracy in migration time estimates',
+                'Added support for version-control hosts by fetching repo metadata with GraphQL, covering 100% of migrations',
+            ],
+        },
+        {
             title: 'Software Engineer',
             subtitle: 'Enterprise Application Services at Rutgers University',
             bulletPoints: [
